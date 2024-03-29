@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Payment</title>
+    <link rel="stylesheet" href="Payment2.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Course Payment</h2>
+
+    <label for="courseName">Course Name:</label>
+    <input type="text" id="courseName" value="Python: Basics To Advanced" readonly>
+
+    <label for="coursePrice">Price:</label>
+    <input type="text" id="coursePrice" value="₹499" readonly>
+
+    <label for="upiId">UPI ID:</label>
+    <input type="text" id="upiId">
+
+    <button onclick="makePayment()">Make Payment</button>
+</div>
+
+<script src="Payment2.js"></script>
+
+</body>
+</html>
